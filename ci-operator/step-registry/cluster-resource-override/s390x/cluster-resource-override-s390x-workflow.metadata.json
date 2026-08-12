@@ -2,10 +2,12 @@
 	"path": "cluster-resource-override/s390x/cluster-resource-override-s390x-workflow.yaml",
 	"owners": {
 		"approvers": [
-			"multiarch-approvers"
+			"joelsmith",
+			"maxcao13"
 		],
 		"reviewers": [
-			"multiarch-reviewers"
+			"joelsmith",
+			"maxcao13"
 		]
 	}
 }

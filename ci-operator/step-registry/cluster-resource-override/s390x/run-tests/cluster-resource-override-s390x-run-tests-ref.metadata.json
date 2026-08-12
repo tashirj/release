@@ -2,10 +2,12 @@
 	"path": "cluster-resource-override/s390x/run-tests/cluster-resource-override-s390x-run-tests-ref.yaml",
 	"owners": {
 		"approvers": [
-			"multiarch-approvers"
+			"joelsmith",
+			"maxcao13"
 		],
 		"reviewers": [
-			"multiarch-reviewers"
+			"joelsmith",
+			"maxcao13"
 		]
 	}
 }
