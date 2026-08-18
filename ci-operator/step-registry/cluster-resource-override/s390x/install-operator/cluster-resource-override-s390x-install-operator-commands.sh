@@ -403,7 +403,9 @@ spec:
       cpuRequestToLimitPercent: 25
       limitCPUToMemoryPercent: 200
 EOF
-    echo "=== Waiting for ClusterResourceOverride CR to become Available ==="
+
+  echo "=== Waiting for ClusterResourceOverride CR to become Available ==="
+  condition=""
   for i in $(seq 1 60); do
     condition="$(oc get clusterresourceoverride cluster -n "${CRO_NAMESPACE}" \
       -o jsonpath='{.status.conditions[?(@.type=="Available")].status}' 2>/dev/null || true)"
